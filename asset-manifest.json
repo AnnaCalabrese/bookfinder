@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/bookfinder/static/css/main.cdfcf8d6.chunk.css",
-    "main.js": "/bookfinder/static/js/main.762d240e.chunk.js",
-    "main.js.map": "/bookfinder/static/js/main.762d240e.chunk.js.map",
-    "runtime-main.js": "/bookfinder/static/js/runtime-main.20abebd1.js",
-    "runtime-main.js.map": "/bookfinder/static/js/runtime-main.20abebd1.js.map",
-    "static/js/2.0e20f50e.chunk.js": "/bookfinder/static/js/2.0e20f50e.chunk.js",
-    "static/js/2.0e20f50e.chunk.js.map": "/bookfinder/static/js/2.0e20f50e.chunk.js.map",
+    "main.js": "/bookfinder/static/js/main.547609a4.chunk.js",
+    "main.js.map": "/bookfinder/static/js/main.547609a4.chunk.js.map",
+    "runtime-main.js": "/bookfinder/static/js/runtime-main.b4bb7bbf.js",
+    "runtime-main.js.map": "/bookfinder/static/js/runtime-main.b4bb7bbf.js.map",
+    "static/js/2.2ecdeeae.chunk.js": "/bookfinder/static/js/2.2ecdeeae.chunk.js",
+    "static/js/2.2ecdeeae.chunk.js.map": "/bookfinder/static/js/2.2ecdeeae.chunk.js.map",
     "index.html": "/bookfinder/index.html",
     "static/css/main.cdfcf8d6.chunk.css.map": "/bookfinder/static/css/main.cdfcf8d6.chunk.css.map",
-    "static/js/2.0e20f50e.chunk.js.LICENSE.txt": "/bookfinder/static/js/2.0e20f50e.chunk.js.LICENSE.txt"
+    "static/js/2.2ecdeeae.chunk.js.LICENSE.txt": "/bookfinder/static/js/2.2ecdeeae.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.20abebd1.js",
-    "static/js/2.0e20f50e.chunk.js",
+    "static/js/runtime-main.b4bb7bbf.js",
+    "static/js/2.2ecdeeae.chunk.js",
     "static/css/main.cdfcf8d6.chunk.css",
-    "static/js/main.762d240e.chunk.js"
+    "static/js/main.547609a4.chunk.js"
   ]
 }
