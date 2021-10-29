@@ -1,0 +1,190 @@
+/*
+=============== 
+General Styling
+===============
+*/
+:root{
+ --white: #dee2ed;
+ --grey: #b1b5c0;
+ --darkBackground: #141c2f;
+ --cardBackground: #1f2a48;
+ --darkBlue:#1c6ccb;
+ --lightBlue: #0079fe;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+    font-size: 0.875rem;
+    background-color:var(--darkBackground);
+  }
+h1,h2,h3,h4 {
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-transform: none;
+    color: #ececec;
+    }
+h2,h3,h4,h5{
+    font-size: 17px;
+}
+p,input {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 27.03px;
+    text-transform: none;
+    color: var(--grey);
+    }
+/*
+=============== 
+Card Containers
+===============
+*/  
+.container{
+  
+    padding: 10px;
+}
+
+/*
+=============== 
+Header
+===============
+*/  
+header{
+    margin:30px auto;
+    max-width: 600px;
+    margin-bottom:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+/*
+=============== 
+input
+===============
+*/ 
+.input-container{
+    margin:30px auto;
+    max-width: 600px;
+    background-color: var(--cardBackground);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+} 
+input{
+    margin: 0 10px;
+    padding: 10px 15px;
+    background-color: transparent;
+    border:none;
+    outline: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 80%;
+}
+.my-svg{
+    display: inline-flex;
+    align-self: center;    
+    fill: var(--lightBlue);
+}
+
+/*
+=============== 
+Button styling
+===============
+*/ 
+button{
+    background-color: var(--lightBlue);
+    padding: 5px 10px;
+    border:none;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: var(--white);
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: 700;
+}
+button:hover{
+    background-color: var(--darkBackground);
+    transition: 0.2s;
+}
+
+/*
+=============== 
+Book Card
+===============
+*/
+.book-card{
+    background-color:var(--cardBackground);
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    max-width: 100em;
+    word-break: break-word;
+}
+.book-card:hover{
+    background-color:#1d283f;
+    transition: .3s;
+    box-shadow: 10px 10px 8px #160606;
+}
+.book-info{
+    max-width: 100%;
+}
+.book-grid{
+margin: 30px;
+}
+img{
+    margin-right: 30px;
+    height: 300px;
+}
+.single-book-title{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+small{
+    color: var(--grey);
+    display: flex;
+    justify-content: center;
+}
+/*
+=============== 
+Media queries
+===============
+*/
+@media (max-width:800px){
+    .input-container{
+       padding: 5px;
+    }
+    .my-svg{
+        display: none;
+    }
+    input{
+        padding: 0;
+    }
+    .book-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+    }
+    .book-grid{
+       margin:10px;
+    }
+}
